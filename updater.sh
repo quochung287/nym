@@ -46,7 +46,7 @@ cd /home/nym
 #printf "%b\n\n\n" "${WHITE} You selected ${YELLOW} $directory"
 sleep 2
 printf "%b\n\n\n" "${WHITE} Enter the Liquid-BTC address for the incentives rewards"
-vireward=(VJLD2GxD6qMwbpgscmABUbPCa4xZyQHL1VAjbEGg67iXeR7wzG8ircpUjGZqQbpuPA2BvWSMxRoGEcLj)
+vireward=(VJLDAHQ4qNMj4LsC4zyppcSmrHo9vtFUTnVcc2nP185GVPG8WoaHynEoD2f6sbk886w1T1psPVyupoGA)
 printf "%b\n\n\n"
 printf "%b\n\n\n" "${WHITE} Address for the incentives rewards will be ${YELLOW} ${vireward} "
 printf "%b\n\n\n" "${WHITE} You may later change it in config.toml if needed, but you need to stop the node first and then edit it with an editor such as nano"
