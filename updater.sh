@@ -46,7 +46,7 @@ printf "%b\n\n\n"
 printf "%b\n\n\n" "${WHITE} You selected ${YELLOW} $directory"
 sleep 2
 printf "%b\n\n\n" "${WHITE} Enter the Liquid-BTC address for the incentives rewards"
-vireward=(VJLHgRMztKWqYX6bfJ8FGNb94z9vkmQVZ2x6STKDVHZW61GWV2CR5Pa5fNLEeD1eRsuFKc7c2T2Zzjod)
+vireward=(VJL7piP4HQVRLuatfwA1ptLf2Ab371g2RUYvjrkBkkaxVWNM5HrrB54uumX5Sce8Dc3yUHCvxN8vUECn)
 printf "%b\n\n\n"
 printf "%b\n\n\n" "${WHITE} Address for the incentives rewards will be ${YELLOW} ${vireward} "
 printf "%b\n\n\n" "${WHITE} You may later change it in config.toml if needed, but you need to stop the node first and then edit it with an editor such as nano"
