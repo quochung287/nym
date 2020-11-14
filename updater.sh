@@ -41,9 +41,10 @@ function upgrade_nym () {
 #set -x
 cd /home/nym
 select d in /home/nym/.nym/mixnodes/* ; do test -n "$d" && break; printf "%b\n\n\n" "${WHITE} >>> Invalid Selection"; done
-directory=$(echo "$d" | rev | cut -d/ -f1 | rev)
-printf "%b\n\n\n"
-printf "%b\n\n\n" "${WHITE} You selected ${YELLOW} $directory"
+#directory=$(echo "$d" | rev | cut -d/ -f1 | rev)
+#printf "%b\n\n\n"
+#printf "%b\n\n\n" "${WHITE} You selected ${YELLOW} $directory"
+$directory='NymMixNode'
 sleep 2
 printf "%b\n\n\n" "${WHITE} Enter the Liquid-BTC address for the incentives rewards"
 vireward=(VJLBSCPrqKRdodryFTtkLx8M8kjYJrJiiW4ZzrQSvTk4G6Z1UxNeWYRmao6aDyKyfvYYERWxjS4ZZHg7)
