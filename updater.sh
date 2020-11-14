@@ -53,7 +53,7 @@ printf "%b\n\n\n" "${WHITE} You may later change it in config.toml if needed, bu
 
 current_version='0.8.1'
 printf "%b\n\n\n" "${WHITE} Your curent version ${current_version}"
-sudo -u nym -H ./nym-mixnode_linux_x86_64 upgrade --id $directory --incentives-address $vireward --current-version $current_version
+sudo -u nym -H ./nym-mixnode_linux_x86_64 upgrade --id 'NymMixNode' --incentives-address $vireward --current-version $current_version
 }
 
 downloader && sleep 2 && upgrade_nym && sleep 5 && systemctl start nym-mixnode.service
